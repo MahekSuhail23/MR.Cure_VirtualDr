@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  text-align: ceter;
+}
+.section {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/images/mahekbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0px;
+}
+article h1 {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fcba03;
+}
+article h1::after {
+  counter-reset: "";
+  height: 3px;
+  width: 225px;
+  background-color: cornflowerblue;
+  display: block;
+  margin: auto;
+}
+.img {
+  margin: center;
+  display: block;
+  margin-top: 40px;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  border: 3px solid #bef4f7;
+}
